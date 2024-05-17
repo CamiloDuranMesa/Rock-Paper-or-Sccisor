@@ -1,8 +1,8 @@
 const randomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-const btnRock = document.getElementById("btn-rock");
-const btnPaper = document.getElementById("btn-paper");
-const btnScissors = document.getElementById("btn-scissors");
+const btnRock = document.getElementById("Rock");
+const btnPaper = document.getElementById("Paper");
+const btnScissors = document.getElementById("Scissors");
 const imgSelected = document.getElementById('img-selected');
 const cpuSelected = document.getElementById('cpu-selected');
 const userPoints = document.getElementById('user-points');
