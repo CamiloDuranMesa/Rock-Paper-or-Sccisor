@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/Paper.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <h1>Rock, Paper, Scissors</h1>
+  <h3 id="h3-result" class="h3-result">Game Result</h3>
+  <div class="container-game">
+    <div class="player">
+      <h2>User</h2>
+      <p id="user-points">0</p>
+      <div class="buttons-user">
+        <button id="btn-rock"><img src="img/Rock.jpeg" alt="Rock"></button>
+        <button id="btn-paper"><img src="img/Paper.jpeg" alt="Paper"></button>
+        <button id="btn-scissors"><img src="img/Scissors.jpeg" alt="Scissors"></button>
+      </div>
+      <div class="choice">
+        <h2>Here is your choice!</h2>
+        <img id="img-selected" class="img-selected" src="img/Paper.jpeg" alt="ppt">
+      </div>
+    </div>
+    <div class="cpu">
+      <h2 class="option-h2">CPU</h2>
+      <p id="cpu-points">0</p>
+      <div class="buttons-cpu">
+        <label id="lbl-rock"><img src="img/Rock.jpeg" alt="Rock"></label>
+        <label id="lbl-paper"><img src="img/Paper.jpeg" alt="Paper"></label>
+        <label id="lbl-scissors"><img src="img/Scissors.jpeg" alt="Scissors"></label>
+      </div>
+      <div class="choice">
+        <h2 class="title-h2">The cpu chooses!</h2>
+        <img id="cpu-selected" class="cpu-selected" src="img/Paper.jpeg" alt="ppt">
+      </div>
+    </div>      
+  </div>
+  <script src="conection.js"></script>
+</body>
+</html>
