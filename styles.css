@@ -12,13 +12,8 @@ body {
   align-items: center;  
 }
 
-h1 {
-  margin-top: 0.5rem;
-  font-size: 2.5rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style: oblique;  
-  color: #fff;
-  text-shadow: 0 0 50px #a787f7;
+h2{
+  color: black;
 }
 
 .container-game {
@@ -44,7 +39,7 @@ h1 {
 .cpu > h2 {
   margin-top: 2rem;
   font-size: 2rem;
-  color: #273c7a;
+  color: #04060a;
 }
 
 .buttons-user,
@@ -59,7 +54,7 @@ h1 {
   width: 5rem;
   height: 5rem;
   margin: 0.5rem;
-  border: double 5px #119570;
+  border: double 5px #00ffb7;
   border-radius: 15px;
   cursor: pointer;
 }
@@ -99,7 +94,7 @@ h1 {
 .choice > h2 {
   font-size: 2rem;
   font-weight: 900;
-  color: #095c1f;  
+  color: black;  
 }
 
 .cpu >.option-h2 {
@@ -126,8 +121,8 @@ h1 {
 #cpu-points {
   font-size: 2rem;
   font-weight: 900;
-  border: groove 3px #020202;
-  background-color: #959ea5; 
+  border: groove 3px #18f3bc;
+  background-color: #18f3bc; 
   width: 2rem;
   display: flex;  
   justify-content: center;
@@ -135,11 +130,11 @@ h1 {
 }
 
 #user-points {
-  color: #0b44f1;
+  color: #000000;
 }
 
 #cpu-points {
-  color: #ed0b0b;
+  color: #000000;
 }
 
 .h3-result {
